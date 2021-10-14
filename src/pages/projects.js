@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 const AboutPage = () => {
   return (
     <Layout pageTitle="Projects">
-      <p>Temp Projects Page</p>
+      <p>This is where I post my project. If I had some rn</p>
     </Layout>
   )
 }

@@ -1,7 +1,15 @@
+.top-container {
+  height: 100vh;
+  font-family: sans-serif;
+  color: darkgray;
+}
+
 .container {
   margin: auto;
   max-width: 500px;
-  font-family: sans-serif;
+  height: 100vh;
+  position: relative;
+  padding-top: 10%;
 }
 
 .heading {

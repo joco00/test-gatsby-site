@@ -5,13 +5,16 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Home Page">
-      <p>Temp Home Page.</p>
-      <StaticImage
-        alt="Selfie at the Grand Canyon of Yellow Stone"
-        src="../images/grandCanyonYellowStone.jpeg"
-      />
-    </Layout>
+    <>
+      <Layout pageTitle="Home Page">
+        <h1>Hi, my name is <span style={{ color: 'skyblue' }}>Jake OConnor</span><br></br>
+          I code things
+        </h1>
+
+
+      </Layout>
+
+    </>
   )
 }
 
