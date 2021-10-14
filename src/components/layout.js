@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Link, useStaticQuery, graphql } from 'gatsby'
+import { useStaticQuery, graphql } from 'gatsby'
 import {
   container,
   topContainer,
@@ -9,8 +9,6 @@ import {
   navLinkText,
   siteTitle,
 } from './layout.module.css'
-import { StaticImage } from 'gatsby-plugin-image'
-
 import NavBar from './navBar'
 
 
